@@ -2,14 +2,17 @@
 //  S3CReview.swift
 //  TestMovies
 //
-//  Created by Macbook on 12/10/2017.
+//  Created by Macbook on 15/10/2017.
 //  Copyright © 2017 HE. All rights reserved.
 //
 
 import UIKit
+import FloatRatingView
 
 class S3CReview: UITableViewCell {
 
+    @IBOutlet var myreviewRating: FloatRatingView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -2,7 +2,7 @@
 //  S5CCasting.swift
 //  TestMovies
 //
-//  Created by Macbook on 12/10/2017.
+//  Created by Macbook on 15/10/2017.
 //  Copyright © 2017 HE. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import UIKit
 
 class S5CCasting: UITableViewCell {
 
+    @IBOutlet weak var castingLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
