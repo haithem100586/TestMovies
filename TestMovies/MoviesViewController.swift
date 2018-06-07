@@ -8,7 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MoviesViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    @IBOutlet weak var resultsLabel: UILabel!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
